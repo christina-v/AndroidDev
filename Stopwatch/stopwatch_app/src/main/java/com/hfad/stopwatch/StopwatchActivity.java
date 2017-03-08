@@ -9,7 +9,7 @@ import android.widget.TextView;
 public class StopwatchActivity extends Activity {
     //Number of seconds displayed on the stopwatch.
     private int seconds = 0;
-    //Is the stopwatch running?
+    //Is the stopwatch running
     private boolean running;
     private boolean wasRunning;
 
