@@ -84,6 +84,22 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(phrasesIntent);
             }
         });
+        
+        
+                /* FOR MISC */
+        TextView misc = (TextView) findViewById(R.id.misc);
+
+        // Set a click listener on that View
+        misc.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the numbers View is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent miscIntent = new Intent(MainActivity.this, MiscActivity.class);
+                startActivity(miscIntent);
+            }
+        });
+
+        
     }
 
 
