@@ -37,7 +37,15 @@
                   android:label="@string/category_directions"/>
         <activity android:name=".EatingOutActivity"
                   android:label="@string/category_eating">
-
+        </activity>
+             <activity
+            android:name=".MiscActivity"
+            android:label="@string/category_misc"
+            android:parentActivityName=".MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
         </activity>
     </application>
 
