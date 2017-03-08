@@ -27,4 +27,7 @@
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_eating">Eating</string>
+       
+    <!-- Category name for the vocabulary words for misc [CHAR LIMIT=20] -->
+    <string name="category_misc">Miscellaneous</string>
 </resources>
