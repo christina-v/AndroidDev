@@ -93,16 +93,8 @@ public class MainActivity extends AppCompatActivity {
                         timeZone = user.timeZone;
                         description = user.description;
 
-                        //intent to tweetActivity
                         setUpViewsForTweetComposer();
 
-
-                        /*session = TwitterCore.getInstance().getSessionManager()
-                                .getActiveSession();
-                        intent = new ComposerActivity.Builder(TweetActivity.this)
-                                .session(session)
-                                .createIntent();
-                        startActivity(intent);*/
 
 
                         /*user_picture = (ImageView) findViewById(R.id.profile_pic);
@@ -169,7 +161,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
         }
 
-
+    
     private void setUpViewsForTweetComposer() {
 
         TweetComposer.Builder builder = new TweetComposer.Builder(this).text("Hello people of twitter!");
