@@ -23,15 +23,30 @@
     <!-- Background color for app -->
     <color name="tan_background">#FFF7DA</color>
 
+    <!-- Main color for the numbers category -->
+    <color name="category_numbers">#E57373</color>
     <!-- Background color for the numbers category -->
-    <color name="category_numbers">#ff6666</color>
+    <color name="numbers_list">#EF9A9A</color>
 
+
+    <!-- Main color for the family members category -->
+    <color name="category_directions">#663333</color>
     <!-- Background color for the family members category -->
-    <color name="category_directions">#ffd966</color>
+    <color name="directions_list">#993333</color>
 
+    <!-- Main color for the colors category -->
+    <color name="category_eating">#8a8a5c</color>
     <!-- Background color for the colors category -->
-    <color name="category_eating">#336699</color>
+    <color name="eating_list">#999966</color>
 
+    <!-- Main color for the phrases category -->
+    <color name="category_phrases">#546E7A</color>
     <!-- Background color for the phrases category -->
-    <color name="category_phrases">#336600</color>
+    <color name="phrases_list">#78909C</color>
+
+    <!-- Main color for the misc category -->
+    <color name="category_misc">#616161</color>
+    <!-- Background color for the misc category -->
+    <color name="misc_list">#9E9E9E</color>
 </resources>
+
